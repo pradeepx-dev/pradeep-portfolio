@@ -7,7 +7,7 @@ A modern, fully responsive, and elegant **personal portfolio website** built usi
 
 ## 🌐 Live Demo
 
-🔗 [Visit Website](https://your-portfolio-url.com)
+🔗 [pradeepx.me](https://www.pradeepx.me/)
 
 ---
 
