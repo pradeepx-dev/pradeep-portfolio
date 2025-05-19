@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Github, ExternalLink, Code, Filter } from 'lucide-react';
+import dev8Logo from '../assets/dev8.png';
 
 const Projects = () => {
   const [activeFilter, setActiveFilter] = useState('All');
@@ -10,7 +11,7 @@ const Projects = () => {
       id: 1,
       title: 'IDE8 - Online IDE',
       description: 'Dev8 IDE is an intuitive and responsive online code editor built to simplify how we write, run, and manage code directly in the browser.',
-      image: 'https://private-user-images.githubusercontent.com/116271292/443134217-36eacd07-77a7-452b-9c15-1e1aa3c4ef0d.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDc1Njk2OTQsIm5iZiI6MTc0NzU2OTM5NCwicGF0aCI6Ii8xMTYyNzEyOTIvNDQzMTM0MjE3LTM2ZWFjZDA3LTc3YTctNDUyYi05YzE1LTFlMWFhM2M0ZWYwZC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNTE4JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDUxOFQxMTU2MzRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT02ZmZkOTcyZmFkZmExNDBmNjQ1YzhlY2JmYjY2MGFmMzFmOWZiYTQ2NmQ0M2U5ODVlYzk2MmU1NzY5NTY2Mzk3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.vO7EGGeWnkpNjEwVv71uOra849YOHCJ8wijheTlHHK0',
+      image: {dev8Logo},
       technologies: ['React', 'Node.js', 'Express', 'MongoDB'],
       category: 'Full Stack',
       github: 'https://github.com/pradeepx-dev/Dev8-IDE',
@@ -32,7 +33,7 @@ const Projects = () => {
       id: 3,
       title: 'Wonderland',
       description: 'Wonderland, a beautifully designed hotel listing platform where users can explore and discover the perfect stay!',
-      image: 'https://private-user-images.githubusercontent.com/116271292/437937030-f2333c4e-9bbf-4a87-9ed9-9629a15efbe6.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDc1NzAzODAsIm5iZiI6MTc0NzU3MDA4MCwicGF0aCI6Ii8xMTYyNzEyOTIvNDM3OTM3MDMwLWYyMzMzYzRlLTliYmYtNGE4Ny05ZWQ5LTk2MjlhMTVlZmJlNi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNTE4JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDUxOFQxMjA4MDBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lMTIwOTJhYTUxM2FkZWJkYmE5ODM4NGY4ODQ2Y2NlZDJlY2QyY2Y0NjNmOTU1NDcxZDk5NTc4MzI5YjI1N2YzJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.6E8zo2WbZt6pqtWD586NyfpDoxsWRkm3hqCSDVOJ2sY',
+      image: 'https://www.teamtweaks.com/blog/wp-content/uploads/2020/02/banner.png',
       technologies: ['React', 'Socket.io', 'Express', 'MongoDB'],
       category: 'Full Stack',
       github: 'https://github.com/pradeepx-dev/WonderLand',
