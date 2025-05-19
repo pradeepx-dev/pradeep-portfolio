@@ -167,7 +167,7 @@ const About = () => {
                 whileTap={{ scale: 0.97 }}
               >
                 <a 
-                  href="https://drive.google.com/file/d/1_Wx0_307wymL7AdPOwhC-Oh-ae8zqYoT/view?usp=drive_link" 
+                  href="https://drive.google.com/file/d/1_Wx0_307wymL7AdPOwhC-Oh-ae8zqYoT/view?usp=sharing" 
                   target="_blank" 
                   rel="noopener noreferrer"
                 >
