@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Github, ExternalLink, Code, Filter } from 'lucide-react';
-import dev8Logo from '../assets/dev8.png';
 
 const Projects = () => {
   const [activeFilter, setActiveFilter] = useState('All');
@@ -11,7 +10,7 @@ const Projects = () => {
       id: 1,
       title: 'IDE8 - Online IDE',
       description: 'Dev8 IDE is an intuitive and responsive online code editor built to simplify how we write, run, and manage code directly in the browser.',
-      image: {dev8Logo},
+      image: 'https://www.teamtweaks.com/blog/wp-content/uploads/2020/02/banner.png',
       technologies: ['React', 'Node.js', 'Express', 'MongoDB'],
       category: 'Full Stack',
       github: 'https://github.com/pradeepx-dev/Dev8-IDE',
@@ -47,8 +46,8 @@ const Projects = () => {
       image: 'https://www.teamtweaks.com/blog/wp-content/uploads/2020/02/banner.png',
       technologies: ['React', 'ChartJS', 'OpenWeather API', 'Tailwind CSS'],
       category: 'Frontend',
-      github: 'https://github.com/username/weather-dashboard',
-      live: 'https://weather-app.example.com',
+      github: 'https://github.com/pradeepx-dev',
+      live: 'https://github.com/pradeepx-dev',
       featured: false,
     },
     {
@@ -58,18 +57,18 @@ const Projects = () => {
       image: 'https://www.teamtweaks.com/blog/wp-content/uploads/2020/02/banner.png',
       technologies: ['Node.js', 'Express', 'MongoDB', 'JWT'],
       category: 'Backend',
-      github: 'https://github.com/username/blog-api',
-      live: 'https://blog-api.example.com/docs',
+      github: 'https://github.com/pradeepx-dev',
+      live: 'https://github.com/pradeepx-dev',
       featured: false,
     },
     {
       id: 6,
-      title: 'Portfolio Website (Upcoming)',
+      title: 'Portfolio Website',
       description: 'A responsive developer portfolio showcasing projects and skills (this website).',
       image: 'https://www.teamtweaks.com/blog/wp-content/uploads/2020/02/banner.png',
       technologies: ['React', 'Framer Motion', 'Tailwind CSS', 'EmailJS'],
       category: 'Frontend',
-      github: 'https://github.com/username/portfolio',
+      github: 'https://github.com/pradeepx-dev/pradeep-portfolio',
       live: '#',
       featured: false,
     }
