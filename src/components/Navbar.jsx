@@ -167,7 +167,7 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
               
               <div className="pt-4 mt-2 border-t border-gray-100 dark:border-gray-800">
                 <a 
-                  href="https://drive.google.com/file/d/1_Wx0_307wymL7AdPOwhC-Oh-ae8zqYoT/view?usp=sharing" 
+                  href="https://drive.google.com/file/d/1cWYS7firBloTMZMwpIUCAQ6z570c_-Ht/view?usp=sharing" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="flex items-center justify-center w-full py-3 px-4 bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg font-medium transition-colors shadow-lg shadow-indigo-600/20 dark:shadow-indigo-900/30"
