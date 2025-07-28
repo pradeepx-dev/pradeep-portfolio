@@ -44,7 +44,7 @@ const About = () => {
     { 
       icon: <Users size={20} />,
       title: 'Leadership',
-      description: 'Decision Head of the Innovators Club at my college'
+      description: 'President of the Innovators Club at my college'
     },
     { 
       icon: <BookOpen size={20} />,
@@ -114,7 +114,7 @@ const About = () => {
               variants={fadeInUp}
               className="text-lg text-gray-700 dark:text-gray-300 mb-8 leading-relaxed"
             >
-              Beyond development, I lead as the Decision Head of the Innovators Club at my college, mentoring juniors in web development and organizing tech events. I've built projects like <span className="font-medium text-indigo-700 dark:text-indigo-300">Dev8 IDE</span>, a browser-based coding platform, and contributed articles to GeeksforGeeks.
+              Beyond development, I lead as the President of the Innovators Club at my college, mentoring juniors in web development and organizing tech events. I've built projects like <span className="font-medium text-indigo-700 dark:text-indigo-300">Dev8 IDE</span>, a browser-based coding platform, and contributed articles to GeeksforGeeks.
             </motion.p>
 
             {/* Highlights Grid */}
@@ -167,7 +167,7 @@ const About = () => {
                 whileTap={{ scale: 0.97 }}
               >
                 <a 
-                  href="https://drive.google.com/file/d/1cWYS7firBloTMZMwpIUCAQ6z570c_-Ht/view?usp=sharing" 
+                  href="https://drive.google.com/file/d/1nqhpLakQR9WtWlsXjqWCFZY_M_RYahbK/view?usp=sharing" 
                   target="_blank" 
                   rel="noopener noreferrer"
                 >
