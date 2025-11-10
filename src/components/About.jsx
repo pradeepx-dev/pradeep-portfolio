@@ -25,7 +25,7 @@ const About = () => {
   const skills = [
     { name: 'MongoDB', level: 90 },
     { name: 'Express.js', level: 85 },
-    { name: 'React', level: 95 },
+    { name: 'React.js', level: 95 },
     { name: 'Node.js', level: 85 },
     { name: 'Tailwind CSS', level: 90 },
   ];
@@ -41,16 +41,16 @@ const About = () => {
       title: 'Competitive Coder',
       description: '3-star rating on CodeChef and Specialist rank on Codeforces'
     },
-    { 
-      icon: <Users size={20} />,
-      title: 'Leadership',
-      description: 'President of the Innovators Club at my college'
-    },
-    { 
-      icon: <BookOpen size={20} />,
-      title: 'Content Creation',
-      description: 'Technical writer for GeeksforGeeks'
-    }
+    // { 
+    //   icon: <Users size={20} />,
+    //   title: 'Leadership',
+    //   description: 'President of the Innovators Club at my college'
+    // },
+    // { 
+    //   icon: <BookOpen size={20} />,
+    //   title: 'Content Creation',
+    //   description: 'Technical writer for GeeksforGeeks'
+    // }
   ];
 
   return (
@@ -114,7 +114,7 @@ const About = () => {
               variants={fadeInUp}
               className="text-lg text-gray-700 dark:text-gray-300 mb-8 leading-relaxed"
             >
-              Beyond development, I lead as the President of the Innovators Club at my college, mentoring juniors in web development and organizing tech events. I've built projects like <span className="font-medium text-indigo-700 dark:text-indigo-300">Dev8 IDE</span>, a browser-based coding platform, and contributed articles to GeeksforGeeks.
+              Beyond development, mentoring juniors in web development and organizing tech events. I've built projects like <span className="font-medium text-indigo-700 dark:text-indigo-300">Dev8 IDE</span>, a browser-based coding platform, and contributed articles to GeeksforGeeks.
             </motion.p>
 
             {/* Highlights Grid */}
@@ -167,7 +167,7 @@ const About = () => {
                 whileTap={{ scale: 0.97 }}
               >
                 <a 
-                  href="https://drive.google.com/file/d/1nqhpLakQR9WtWlsXjqWCFZY_M_RYahbK/view?usp=sharing" 
+                  href="https://drive.google.com/file/d/1kxLmNvg2H9otG3tRybpAhKLIUaLbRw1n/view?usp=sharing" 
                   target="_blank" 
                   rel="noopener noreferrer"
                 >

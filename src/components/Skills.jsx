@@ -9,27 +9,24 @@ const Skills = () => {
     { name: 'Node.js', icon: <Terminal className="text-green-600" size={32} /> },
     { name: 'MongoDB', icon: <Terminal className="text-green-500" size={32} /> },
     { name: 'Express.js', icon: <Terminal className="text-gray-500" size={32} /> },
-    { name: 'CSS', icon: <Terminal className="text-blue-600" size={32} /> },
-    { name: 'HTML5', icon: <Terminal className="text-orange-600" size={32} /> },
-    { name: 'TypeScript', icon: <Terminal className="text-blue-700" size={32} /> },
-    { name: 'Redux', icon: <Terminal className="text-purple-600" size={32} /> },
-    { name: 'Git', icon: <Terminal className="text-orange-700" size={32} /> },
-    { name: 'RESTful APIs', icon: <Terminal className="text-teal-600" size={32} /> },
-    { name: 'Supabase', icon: <Terminal className="text-emerald-600" size={32} /> },
+    { name: 'HTML/CSS', icon: <Terminal className="text-blue-600" size={32} /> },
+    { name: 'Next.js', icon: <Terminal className="text-orange-600" size={32} /> },
+    { name: 'Tailwind CSS', icon: <Terminal className="text-blue-700" size={32} /> },
+    { name: 'MySQL', icon: <Terminal className="text-purple-600" size={32} /> },
+    { name: 'GitHub', icon: <Terminal className="text-orange-700" size={32} /> },
+    { name: 'Git', icon: <Terminal className="text-teal-600" size={32} /> },
+    { name: 'C++', icon: <Terminal className="text-emerald-600" size={32} /> },
   ];
 
   const frameworksAndTools = [
-    'Tailwind CSS',
     'Material UI',
     'Bootstrap',
     'Shadcn/UI',
-    'AWS',
-    'WordPress',
     'Firebase',
     'Figma',
-    'Storybook',
-    'Next.js',
-    'Redux Toolkit',
+    'VS Code',
+    'Cursor',
+    'Netlify'
   ];
 
   const fadeInUp = {

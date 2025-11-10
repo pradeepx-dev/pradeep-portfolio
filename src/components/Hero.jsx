@@ -103,7 +103,7 @@ const Hero = () => {
             className="mb-12"
           >
             <div className="flex flex-wrap justify-center gap-3">
-              {['React', 'Node.js', 'MongoDB', 'Express', 'Tailwind CSS'].map((tech, index) => (
+              {['React.js', 'Node.js', 'MongoDB', 'Express.js', 'Tailwind CSS'].map((tech, index) => (
                 <motion.span 
                   key={index}
                   className="px-4 py-2 bg-white dark:bg-gray-800 rounded-full border border-gray-200 dark:border-gray-700 text-gray-700 dark:text-gray-300 text-sm font-medium shadow-sm"
